@@ -1,0 +1,248 @@
+## Created with gatsby-plugin-netlify
+
+/*
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: same-origin
+  Strict-Transport-Security: max-age=63072000
+/styles.154a96d5559d575bfb0d.css
+  Cache-Control: public, max-age=31536000, immutable
+/styles-89fd2ae28bdf06750a71.js
+  Cache-Control: public, max-age=31536000, immutable
+/commons-907a20ddd8a8b5504537.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-404-js-4c9fa5790aa9ec081a1b.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-blog-js-e210a51184f5e41ce6d0.js
+  Cache-Control: public, max-age=31536000, immutable
+/component---src-pages-index-js-fffebeb2027c19908210.js
+  Cache-Control: public, max-age=31536000, immutable
+/webpack-runtime-575d361e982fbfd4d2dc.js
+  Cache-Control: public, max-age=31536000, immutable
+/framework-5fc6169171e885c3b522.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-82ccfe06b6f27390900b.js
+  Cache-Control: public, max-age=31536000, immutable
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+/sw.js
+  Cache-Control: no-cache
+/blog/sah
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/sah/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/desert
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/desert/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/kdenlive
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/kdenlive/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/bash
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/bash/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/cook-dal
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/cook-dal/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-1w
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-1w/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-2w
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-2w/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-3w
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-3w/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-4w
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-4w/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-2m
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-2m/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-final
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-final/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/las20
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/las20/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/travel
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/travel/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/fosdem20
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/fosdem20/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/college-ed
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/college-ed/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-3m
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-3m/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/akademy20
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/akademy20/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/gsoc-20
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/gsoc-20/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/cook-fritters
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/cook-fritters/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/hackference
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-templates-blog-post-js-d977d2131ca46f69f5ec.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/hackference/page-data.json>; rel=preload; as=fetch; crossorigin
+/404/
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
+/blog/
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-pages-blog-js-e210a51184f5e41ce6d0.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
+/
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-pages-index-js-fffebeb2027c19908210.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/404.html
+  Link: </webpack-runtime-575d361e982fbfd4d2dc.js>; rel=preload; as=script
+  Link: </styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </framework-5fc6169171e885c3b522.js>; rel=preload; as=script
+  Link: </app-82ccfe06b6f27390900b.js>; rel=preload; as=script
+  Link: </commons-907a20ddd8a8b5504537.js>; rel=preload; as=script
+  Link: </component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
+  Link: </page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
