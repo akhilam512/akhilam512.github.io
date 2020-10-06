@@ -6,6 +6,11 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const Head1 = styled.h1`
+    text-align: center;
+    font-size: 3rem;
+`
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
@@ -27,6 +32,10 @@ const ReadingTime = styled.h5`
   display: inline;
   color: #606060;
 `
+const LightLine = styled.hr`
+    border-top: 1px dotted gray;
+    opacity: 0.6;
+}`
 
 const IndexPage = ({ data }) => {
   return (
@@ -35,7 +44,7 @@ const IndexPage = ({ data }) => {
 
       <SEO title="Blog" />
       <Content>
-        <h1>Blog</h1>
+        <Head1> Blog </Head1> <br/> <br/>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -56,9 +65,7 @@ const IndexPage = ({ data }) => {
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
               </div>
-              <p>{node.excerpt}</p>
-              <hr></hr>
-
+              <LightLine/>
             </div>
 
           ))}
@@ -87,7 +94,7 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD MMMM, YYYY")
+            date(formatString: "DD/MM/YYYY")
             rawDate: date
             path
           }
