@@ -35,7 +35,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const GitHubLink = styled.a`
+const ResumeLink = styled.a`
   color: black;
   margin-left: 15px;
   text-decoration: none;
@@ -78,10 +78,12 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">Blog</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
-          GitHub
-        </GitHubLink>
+        <ResumeLink href="https://drive.google.com/file/d/1oVk0uFYMbSzjL86TKjXDY581Nd_SyJkW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          Resume
+        </ResumeLink>
       </p>
+      <hr></hr>  <br></br>
+
     </Content>
   </SiteHeader>
 )

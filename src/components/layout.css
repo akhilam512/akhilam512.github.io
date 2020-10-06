@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: "Nunito", "Avenir", "Helvetica", "sans-serif";
+  font-family: "Lato", "Raleway", "Lato", "sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -610,7 +610,7 @@ h5::selection,
 h6::selection,
 p::selection,
 a::selection {
-  background: #fffa96cc;
+  background: #f8fd61;
 }
 
 .gatsby-highlight {
@@ -631,3 +631,44 @@ a::selection {
     font-size: 100%;
   }
 }
+
+.fa {
+  font-size: 35px;
+  width: 45px;
+  height: 45px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 5px;
+  color:white;
+  background-color:#333333;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+
+.fa-quora:hover {
+  background-color: #b92b27;
+}
+
+.fa-linkedin:hover {
+  background-color: #0077b5;
+}
+
+.fa-github:hover {
+  background-color: black;
+}
+
+.fa-twitter:hover {
+  background-color: #55ACEE;
+}
+
+.fa-facebook:hover {
+  background-color: #3B5998;
+}
+
+.avatarImg {
+  border-radius: 50%;
+}
+
+

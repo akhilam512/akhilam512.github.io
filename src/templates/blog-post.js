@@ -8,22 +8,18 @@ const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
   padding: 1.45rem 1.0875rem;
+  font-size: 1.2em;
 `
 
 const MarkedHeader = styled.h1`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
   );
 `
 
 const HeaderDate = styled.h3`
   margin-top: 10px;
   color: #606060;
+  font-size: 1em;
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
@@ -33,8 +29,8 @@ const MarkdownContent = styled.div`
     position: relative;
 
     background-image: linear-gradient(
-      rgba(255, 250, 150, 0.8),
-      rgba(255, 250, 150, 0.8)
+      rgba(246, 252, 58, 0.8),
+      rgba(246, 252, 58, 0.8)
     );
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
@@ -61,8 +57,9 @@ export default ({ data }) => {
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
         <HeaderDate>
-          {post.frontmatter.date} - {post.fields.readingTime.text}
+          {post.frontmatter.date}
         </HeaderDate>
+        <br></br>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
     </Layout>

@@ -1,7 +1,10 @@
+import 'bootstrap/dist/css/bootstrap.css';
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import avatarImg from "./../images/me2.jpg"
+
 
 const Container = styled.div`
   text-align: center;
@@ -17,13 +20,20 @@ const OuterContainer = styled.div`
 
 const Description = styled.p`
   padding: 0;
-  margin-bottom: 1rem;
-  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  text-align: center;
 `
-
 const NameHeader = styled.h1`
   font-size: 3.5rem;
   margin-bottom: 0;
+`
+const NameHeader2 = styled.h2`
+  font-size: 2.0rem;
+  margin-bottom: 1rem;
+`
+const NameHeader3 = styled.h3`
+  font-size: 2.1rem;
 `
 
 const LandingBio = () => (
@@ -38,11 +48,52 @@ const LandingBio = () => (
         }
       }
     `}
-    render={data => (
+    render={(data) => (
       <OuterContainer>
+            <link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  crossorigin="anonymous"
+/>
         <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
-          <Description>{data.site.siteMetadata.subtitle}</Description>
+          <Container>
+          <img
+            src={avatarImg}
+            class="img-circle mg-fluid mx-auto d-block"
+            className="avatarImg"
+          />
+          </Container>
+          <NameHeader>Akhil K G</NameHeader>
+          <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
+          <Description> Founder @<a href="https://gitlit.co/" target="_blank" rel="noopener noreferrer">GitLit </a> , Member @<a href="https://amfoss.in/" target="_blank" rel="noopener noreferrer">amFOSS </a> </Description>
+          <br></br>
+          <div>
+            <a
+              href="https://twitter.com/akhlkg/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-twitter"
+            ></a>
+            <a
+              href="https://github.com/akhilam512/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-github"
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/akhil-k-g/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-linkedin"
+            ></a>
+            <a
+              href="https://www.quora.com/profile/Akhil-K-Gangadharan-2"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-quora"
+            ></a>
+            <br></br> <br></br>
+          </div>
         </Container>
       </OuterContainer>
     )}

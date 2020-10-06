@@ -20,12 +20,7 @@ const ArticleDate = styled.h5`
 const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+  font-size: 1.7em;
 `
 
 const ReadingTime = styled.h5`
@@ -35,7 +30,9 @@ const ReadingTime = styled.h5`
 
 const IndexPage = ({ data }) => {
   return (
+
     <Layout>
+
       <SEO title="Blog" />
       <Content>
         <h1>Blog</h1>
@@ -58,11 +55,14 @@ const IndexPage = ({ data }) => {
               </Link>
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
               </div>
               <p>{node.excerpt}</p>
+              <hr></hr>
+
             </div>
+
           ))}
+
       </Content>
     </Layout>
   )
