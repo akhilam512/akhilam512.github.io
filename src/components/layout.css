@@ -632,6 +632,10 @@ a::selection {
   }
 }
 
+.avatarImg {
+  border-radius: 50%;
+}
+
 .fa {
   font-size: 35px;
   width: 45px;
@@ -667,8 +671,5 @@ a::selection {
   background-color: #3B5998;
 }
 
-.avatarImg {
-  border-radius: 50%;
-}
 
 

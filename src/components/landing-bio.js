@@ -56,13 +56,12 @@ const LandingBio = () => (
   crossorigin="anonymous"
 />
         <Container>
-          <Container>
+          <div>
           <img
             src={avatarImg}
-            class="img-circle mg-fluid mx-auto d-block"
             className="avatarImg"
           />
-          </Container>
+          </div>
           <NameHeader>Akhil K G</NameHeader>
           <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
           <Description> Founder @<a href="https://gitlit.co/" target="_blank" rel="noopener noreferrer">GitLit </a> , Member @<a href="https://amfoss.in/" target="_blank" rel="noopener noreferrer">amFOSS </a> </Description>
