@@ -3,6 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import MailChimpForm from "../components/MailchimpForm"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -27,6 +28,10 @@ const HeaderDate = styled.h3`
   color: #606060;
   font-size: 1em;
 `
+const LightLine = styled.hr`
+    border-top: 1px solid gray;
+    opacity: 0.6;
+}`
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
 const MarkdownContent = styled.div`
@@ -68,6 +73,9 @@ export default ({ data }) => {
         <br></br>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
+      <LightLine/>
+      <MailChimpForm/>
+
     </Layout>
   )
 }

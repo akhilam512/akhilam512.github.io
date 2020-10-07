@@ -39,9 +39,7 @@ const LightLine = styled.hr`
 
 const IndexPage = ({ data }) => {
   return (
-
     <Layout>
-
       <SEO title="Blog" />
       <Content>
         <Head1> Blog </Head1> <br/> <br/>
@@ -69,7 +67,6 @@ const IndexPage = ({ data }) => {
             </div>
 
           ))}
-
       </Content>
     </Layout>
   )

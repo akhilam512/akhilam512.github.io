@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `akhilkg`,
@@ -5,7 +9,16 @@ module.exports = {
     description: `akhilkg's website`,
     author: `@niklasmtj`,
   },
+
   plugins: [
+    {
+        resolve: 'gatsby-plugin-mailchimp',
+        options: {
+            endpoint: process.env.MAILCHIMP_ENDPOINT, 
+        },
+    },
+      `gatsby-plugin-material-ui`,
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -64,9 +77,17 @@ module.exports = {
         icon: `src/images/penrose.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-179955766-1`,
+      },
+    }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
+
   ],
   pathPrefix: "/",
 }
+

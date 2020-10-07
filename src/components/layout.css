@@ -686,5 +686,20 @@ a::selection {
   background-color: #f8fc61;
 }
 
+.TextField {
+  max-width: 100%;
+}
 
+.MailDone {
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  color: green;
+}
 
+.MailNotDone {
+  margin: auto;
+  text-align: center;
+  font-size: 1em;
+  color: red;
+}
