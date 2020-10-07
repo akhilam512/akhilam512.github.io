@@ -17,7 +17,7 @@ module.exports = {
             endpoint: process.env.MAILCHIMP_ENDPOINT, 
         },
     },
-      `gatsby-plugin-material-ui`,
+    `gatsby-plugin-material-ui`,
 
     `gatsby-plugin-react-helmet`,
     {

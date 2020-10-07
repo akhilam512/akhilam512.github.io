@@ -21,7 +21,6 @@ const MailHeader = styled.div`
   font-size: 1.2em;
 `
 
-
 const BootstrapButton = withStyles({
   root: {
     color: 'black',
@@ -53,30 +52,23 @@ const BootstrapButton = withStyles({
 export default class MailChimpForm extends React.Component {
   constructor() {
     super()
-    this.state = { email: "", result: null }
+    this.state = { email: "", result: {}}
+
   }
-  _handleSubmit = async (e) => {
+  _handleSubmit = async(e) => {
     e.preventDefault()
-    const result = await addToMailchimp(this.state.email)
+    const result = await addToMailchimp(this.state.email);
     this.setState({ result: result })
   }
   handleChange = (event) => {
     this.setState({ email: event.target.value })
   }
+
   render() {
-    const isSuccess = this.state.result;
-    let successdiv;
-    if(isSuccess == "success") {
-      successdiv = <div class="MailDone" > Done! </div>
-    }
-    else if(isSuccess == "error") {
-      successdiv = <div class="MailNotDone"> Hmm. That didn't happen </div>
-    }
-    
     return (
       <Container maxWidth="sm">
         <MailHeader> Get not-so-frequent updates of new posts </MailHeader>
-        <form onSubmit={this._handleSubmit}>
+        <form>
           <Grid container direction="row" justify="center" alignItems="center">
             <Grid item >
               <Paper>
@@ -99,6 +91,7 @@ export default class MailChimpForm extends React.Component {
                   variant="contained"
                   label="Subscribe"
                   type="submit"
+                  onSubmit={this._handleSubmit}
                 >
                   <Typography> Subscribe </Typography>
                 </BootstrapButton>
@@ -106,8 +99,7 @@ export default class MailChimpForm extends React.Component {
             </Grid>
           </Grid>
         </form>
-        {successdiv}
       </Container>
-    )
+    );
   }
 }

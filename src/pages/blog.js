@@ -26,6 +26,7 @@ const MarkerHeader = styled.h3`
   display: inline;
   border-radius: 1em 0 1em 0;
   font-size: 1.7em;
+
 `
 
 const ReadingTime = styled.h5`
@@ -56,6 +57,14 @@ const IndexPage = ({ data }) => {
                 css={css`
                   text-decoration: none;
                   color: inherit;
+                  :hover {
+                    text-decoration: none;
+                    color: black;
+                    background-image: linear-gradient(
+                      rgba(246, 252, 58, 0.8),
+                      rgba(246, 252, 58, 0.8)
+                    );
+                  }
                 `}
               >
                 <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
