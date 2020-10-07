@@ -56,7 +56,6 @@ export default class MailChimpForm extends React.Component {
 
   }
   _handleSubmit = async(e) => {
-    e.preventDefault()
     const result = await addToMailchimp(this.state.email);
     this.setState({ result: result })
   }
@@ -68,7 +67,7 @@ export default class MailChimpForm extends React.Component {
     return (
       <Container maxWidth="sm">
         <MailHeader> Get not-so-frequent updates of new posts </MailHeader>
-        <form>
+        <form onSubmit={this._handleSubmit}>
           <Grid container direction="row" justify="center" alignItems="center">
             <Grid item >
               <Paper>
@@ -91,7 +90,6 @@ export default class MailChimpForm extends React.Component {
                   variant="contained"
                   label="Subscribe"
                   type="submit"
-                  onSubmit={this._handleSubmit}
                 >
                   <Typography> Subscribe </Typography>
                 </BootstrapButton>
