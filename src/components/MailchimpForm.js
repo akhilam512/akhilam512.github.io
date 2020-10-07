@@ -52,7 +52,7 @@ const BootstrapButton = withStyles({
 export default class MailChimpForm extends React.Component {
   constructor() {
     super()
-    this.state = { email: "", result: {}}
+    this.state = { email: "", result: null}
 
   }
   _handleSubmit = async(e) => {
