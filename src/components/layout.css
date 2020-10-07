@@ -637,12 +637,12 @@ a::selection {
 }
 
 .fa {
-  font-size: 35px;
-  width: 45px;
-  height: 45px;
+  font-size: 60px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
-  padding: 10px;
+  padding: 15px;
   margin-right: 5px;
   color:white;
   background-color:#333333;
@@ -652,23 +652,38 @@ a::selection {
 /* Add a hover effect if you want */
 
 .fa-quora:hover {
+  text-decoration:none;
+  color: white;
   background-color: #b92b27;
 }
 
 .fa-linkedin:hover {
+  text-decoration:none;
+  color: white;
   background-color: #0077b5;
 }
 
 .fa-github:hover {
+  text-decoration:none;
+  color: white;
   background-color: black;
 }
 
 .fa-twitter:hover {
+  text-decoration:none;
+  color: white;
   background-color: #55ACEE;
 }
 
-.fa-facebook:hover {
-  background-color: #3B5998;
+.Link2 {
+  text-decoration: none;
+  color:black;
+  font-weight: 500;
+
+}
+.Link2:hover {
+  color:black;
+  background-color: #f8fc61;
 }
 
 

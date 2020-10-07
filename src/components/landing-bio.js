@@ -64,7 +64,7 @@ const LandingBio = () => (
           </div>
           <NameHeader>Akhil K G</NameHeader>
           <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
-          <Description> Founder @<a href="https://gitlit.co/" target="_blank" rel="noopener noreferrer">GitLit </a> , Member @<a href="https://amfoss.in/" target="_blank" rel="noopener noreferrer">amFOSS </a> </Description>
+          <Description> Founder @<a href="https://gitlit.co/" target="_blank" rel="noopener noreferrer" class="Link2">GitLit</a>, Member @<a href="https://amfoss.in/" target="_blank" rel="noopener noreferrer" class="Link2">amFOSS </a> </Description>
           <br></br>
           <div>
             <a

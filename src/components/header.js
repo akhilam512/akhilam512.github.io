@@ -18,20 +18,30 @@ const NavLink = styled(Link)`
 
   ::after {
     content: "";
+    text-decoration: none;
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 1px;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: #f8fc61;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
+    text-decoration: none;
     transform: scaleX(1);
     transform-origin: bottom left;
+    background-color: #f8fc61;
+    color:black;
+  }
+
+  :hover {
+    text-decoration: none;
+    background-color: #f8fc61;
+    color: black;
   }
 `
 
@@ -43,6 +53,7 @@ const ResumeLink = styled.a`
   position: relative;
 
   ::after {
+    text-decoration: none;
     content: "";
     position: absolute;
     width: 100%;
@@ -50,14 +61,23 @@ const ResumeLink = styled.a`
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.8);
+    color: black;
+    background-color: #f8fc61;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
   }
 
   :hover::after {
+    text-decoration: none;
+    background-color: #f8fc61;
     transform: scaleX(1);
     transform-origin: bottom left;
+  }
+
+  :hover {
+    text-decoration: none;
+    background-color: #f8fc61;
+    color: black;
   }
 `
 

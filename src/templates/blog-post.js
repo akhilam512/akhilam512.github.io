@@ -13,7 +13,13 @@ const Content = styled.div`
 
 const MarkedHeader = styled.h1`
   display: inline;
+  background-image: linear-gradient(
+      -100deg,
+      rgba(246, 252, 58, 0.79),
+      rgba(246, 252, 58, 0.8) 100%,
+      rgba(246, 252, 58, 0.81)
   );
+  line-height: 1.6;
 `
 
 const HeaderDate = styled.h3`

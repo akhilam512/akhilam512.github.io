@@ -49,7 +49,7 @@ const Layout = ({ children }) => (
           <Footer>
             <div>
             <p>
-            <br></br>
+            <br></br> <br></br>
             © {new Date().getFullYear()} akhilkg
             {` `}
             </p>
