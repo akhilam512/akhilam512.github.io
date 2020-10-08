@@ -3,7 +3,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
-import avatarImg from "./../images/me2.jpg"
+import avatarImg from "./../images/me.webp"
 
 
 const Container = styled.div`
