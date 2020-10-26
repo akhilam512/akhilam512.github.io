@@ -24,11 +24,6 @@ const GatsbyLink = styled.a`
   margin-left: 5px;
 `
 
-const Footer = styled.footer`
-  display: flex;
-  justify-content: center;
-`
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -45,16 +40,6 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-
-          <Footer>
-            <div>
-            <p>
-            <br></br> <br></br>
-            © {new Date().getFullYear()} akhilkg
-            {` `}
-            </p>
-            </div>
-          </Footer>
         </Content>
       </>
     )}

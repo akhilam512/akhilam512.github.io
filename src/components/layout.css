@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: "Lato", "Raleway", "Lato", "sans";
+  font-family: "Lato", "Lato", "Lato", "sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -674,6 +674,13 @@ a::selection {
   color: white;
   background-color: #55ACEE;
 }
+
+.fa-envelope:hover {
+  text-decoration:none;
+  color: white;
+  background-color:red;
+}
+
 
 .Link2 {
   text-decoration: none;

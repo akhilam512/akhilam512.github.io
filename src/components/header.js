@@ -15,6 +15,7 @@ const NavLink = styled(Link)`
   text-decoration: none;
   display: inline-block;
   position: relative;
+  padding-right: 0.2em;
 
   ::after {
     content: "";
@@ -35,7 +36,7 @@ const NavLink = styled(Link)`
     transform: scaleX(1);
     transform-origin: bottom left;
     background-color: #f8fc61;
-    color:black;
+    color: black;
   }
 
   :hover {
@@ -83,6 +84,7 @@ const ResumeLink = styled.a`
 
 const HomeLink = styled(NavLink)`
   margin-left: 0;
+  padding-right: 0.2em;
 `
 
 const SiteHeader = styled.header`
@@ -90,6 +92,15 @@ const SiteHeader = styled.header`
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-bottom: 2rem;
+`
+
+const HRBreak = styled.hr`
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 5.5rem;
 `
 
 const Header = ({ siteTitle }) => (
@@ -98,12 +109,15 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">blog</NavLink>
-        <ResumeLink href="https://drive.google.com/file/d/1oVk0uFYMbSzjL86TKjXDY581Nd_SyJkW/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        <ResumeLink
+          href="https://drive.google.com/file/d/1oVk0uFYMbSzjL86TKjXDY581Nd_SyJkW/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           resume
         </ResumeLink>
       </p>
-      <hr></hr>  <br></br>
-
+      <HRBreak></HRBreak>
     </Content>
   </SiteHeader>
 )

@@ -1,23 +1,22 @@
-import 'bootstrap/dist/css/bootstrap.css';
+import "bootstrap/dist/css/bootstrap.css"
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 import avatarImg from "./../images/me.webp"
 
-
 const Container = styled.div`
   text-align: center;
+  display: block;
+  max-width: 100%;
 `
-
 const OuterContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 78vh;
+  height: 65vh;
 `
-
 const Description = styled.p`
   padding: 0;
   margin-bottom: 0.5rem;
@@ -25,15 +24,34 @@ const Description = styled.p`
   text-align: center;
 `
 const NameHeader = styled.h1`
+  text-decoration: none;
   font-size: 3.5rem;
   margin-bottom: 0;
 `
 const NameHeader2 = styled.h2`
-  font-size: 2.0rem;
-  margin-bottom: 1rem;
+  text-decoration: none;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
 `
 const NameHeader3 = styled.h3`
+  text-decoration: none;
   font-size: 2.1rem;
+`
+const HRBreakFull = styled.hr`
+  width: 70%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 1.5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+`
+const AvatarContainer = styled.div`
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  max-height: 100%;
+  display: block;
 `
 
 const LandingBio = () => (
@@ -50,22 +68,41 @@ const LandingBio = () => (
     `}
     render={(data) => (
       <OuterContainer>
-            <link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-  crossorigin="anonymous"
-/>
+        <link
+          rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          crossorigin="anonymous"
+        />
         <Container>
-          <div>
-          <img
-            src={avatarImg}
-            className="avatarImg"
-          />
-          </div>
+          <br></br>
+          <AvatarContainer>
+            <img src={avatarImg} className="avatarImg img-responsive" />
+          </AvatarContainer>
           <NameHeader>Akhil K G</NameHeader>
           <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
-          <Description> Founder @<a href="https://gitlit.co/" target="_blank" rel="noopener noreferrer" class="Link2">GitLit</a>, Member @<a href="https://amfoss.in/" target="_blank" rel="noopener noreferrer" class="Link2">amFOSS </a> </Description>
+          <Description>
+            Co-Founder @
+            <a
+              href="https://gitlit.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="Link2"
+            >
+              GitLit
+            </a>
+            , Member @
+            <a
+              href="https://amfoss.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="Link2"
+            >
+              amFOSS
+            </a>
+          </Description>
           <br></br>
+          <HRBreakFull />
+
           <div>
             <a
               href="https://twitter.com/akhlkg/"
@@ -84,6 +121,12 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-linkedin"
+            ></a>
+            <a
+              href="mailto:akhilkg@amfoss.in"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-envelope"
             ></a>
             <a
               href="https://www.quora.com/profile/Akhil-K-Gangadharan-2"
