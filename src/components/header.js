@@ -92,7 +92,7 @@ const SiteHeader = styled.header`
   display: flex;
   align-content: center;
   justify-content: center;
-  margin-bottom: 2rem;
+  min-height: 10em;
 `
 
 const HRBreak = styled.hr`
@@ -100,7 +100,7 @@ const HRBreak = styled.hr`
   max-width: 100%;
   margin: 0 auto;
   display: block;
-  margin-bottom: 5.5rem;
+  margin-bottom: 2rem;
 `
 
 const Header = ({ siteTitle }) => (

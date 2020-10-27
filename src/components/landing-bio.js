@@ -42,9 +42,10 @@ const HRBreakFull = styled.hr`
   max-width: 100%;
   margin: 0 auto;
   display: block;
-  margin-bottom: 1.5rem;
-  border: 1px solid grey;
-  border-radius: 5px;
+  margin-bottom: 0.9rem;
+  border: 0.01em solid grey;
+  border-radius: 2px;
+  border-color: grey;
 `
 const AvatarContainer = styled.div`
   width: 100%;
@@ -79,7 +80,9 @@ const LandingBio = () => (
             <img src={avatarImg} className="avatarImg img-responsive" />
           </AvatarContainer>
           <NameHeader>Akhil K G</NameHeader>
+
           <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
+
           <Description>
             Co-Founder @
             <a
@@ -100,9 +103,7 @@ const LandingBio = () => (
               amFOSS
             </a>
           </Description>
-          <br></br>
           <HRBreakFull />
-
           <div>
             <a
               href="https://twitter.com/akhlkg/"
@@ -134,7 +135,6 @@ const LandingBio = () => (
               rel="noopener noreferrer"
               class="fa fa-quora"
             ></a>
-            <br></br> <br></br>
           </div>
         </Container>
       </OuterContainer>
