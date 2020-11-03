@@ -15,7 +15,7 @@ path: "/blog/serendipity"
 
 I hadn't even heard of the word ‘serendipity’ before COVID and true to its nature - serendipity is events happening organically - by chance or "spontaneously".
 
-In real life, we almost always fail to notice serendipity to put a word on it. I only came across the word when everything went remote and random interactions came to a full stop. Suddenly, something was missing. <br/> 
+In real life, we almost always fail to notice serendipity to put a word on it. I only came across the word when everything went remote and random interactions came to a full stop and now suddenly, something was missing. <br/> 
 Obviously, it was other people. 
 But even with video calls, meetings, standups - it didn't feel right. 
 
