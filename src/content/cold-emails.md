@@ -6,7 +6,7 @@ path: "/blog/cold-emails"
 
 ---
 
-Serendipity in the real-life comes at a premium. You have to be at the right place, at the right time to strike gold. You will need to jump over loops, be able to get favours, tackle people and conversations to get what you want - and in the end, this would just get you a conversation for 1-2 minutes with someone important. 
+[Serendipity](https://akhilkg.me/blog/serendipity) in the real-life comes at a premium. You have to be at the right place, at the right time to strike gold. You will need to jump over loops, be able to get favours, tackle people and conversations to get what you want - and in the end, this would just get you a conversation for 1-2 minutes with someone important. 
 The fancy term for this is “warm introductions”.
 
 Serendipity in the remote world, in comparison, is straightforward. 
