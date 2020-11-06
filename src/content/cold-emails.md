@@ -3,7 +3,7 @@ title: "How to write warm emails"
 date: "2020-11-06"
 draft: false
 path: "/blog/cold-emails"
-
+featured: images/seo.jpg
 ---
 
 Why are 'cold emails' ... cold?
