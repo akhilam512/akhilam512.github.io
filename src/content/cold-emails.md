@@ -1,6 +1,6 @@
 ---
-title: "Cold Emails"
-date: "2020-11-05"
+title: "How to cold email"
+date: "2020-11-06"
 draft: false
 path: "/blog/cold-emails"
 
@@ -13,10 +13,9 @@ Serendipity in the remote world, in comparison, is straightforward.
 Nothing beats warm introductions though but here, you are “only” an email away from a potential investor, a mentor, or a customer. 
 Of course, you still need a solid strategy and perhaps a lot more luck but writing ‘cold’ emails is an art in itself.
 
---------
+Let me give you two personal examples of cold emails - one which worked and one which didn’t. The emails went to two of my favourite startup people and I was trying to collect and organise my thoughts around an idea.
 
-Let me give you two personal examples each of cold emails that worked and one that didn’t. 
-The emails went to two of my favourite startup people.
+--------
 
 Your cold emails should take you a lot of time to write and that is good. Each email has its own characteristics depending on whom you are sending it to  i.e. if your motive is to build a long term relationship.
 
@@ -49,7 +48,9 @@ And this was at the end:
 
 Reading it now, it just feels like a cooked up half-assed effort to get some feedback.
 
-Key takeaways:
+------
+
+Takeaways:
 - Connect with the person on a deeper level to whom you are sending to. Read their tweets, read all of their blog posts, see what they have built. Come to appreciate a thing or two about the person whom you are sending it to - you can’t write well if you don’t feel it.
 - Be genuine & expect nothing and no, not even a response. Sounds counter-intuitive, but it works :) I’m not saying don’t ask for help, ask for help - but at the same time, you should be okay without their help as well. Try your best.
 - Mind the platform. Use the platform which the person expects something important to come through. You could also try multiple times but don’t spam.
