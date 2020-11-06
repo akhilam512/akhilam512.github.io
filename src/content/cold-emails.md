@@ -1,12 +1,12 @@
 ---
-title: "How to write c̶o̶l̶d̶ warm emails"
+title: "How to write warm emails"
 date: "2020-11-06"
 draft: false
 path: "/blog/cold-emails"
 
 ---
 
-Why are cold emails ... 'cold'?
+Why are 'cold emails' ... cold?
 
 That's because [serendipity](https://akhilkg.me/blog/serendipity) in real-life comes at a premium. 
 
