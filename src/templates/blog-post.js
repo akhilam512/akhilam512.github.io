@@ -4,6 +4,7 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import MailChimpForm from "../components/MailchimpForm"
+import SEOCard from "../images/seo_card.png"
 
 const Content = styled.div`
   margin: 0 auto;
@@ -59,15 +60,12 @@ const MarkdownContent = styled.div`
 
 export default ({ data }) => {
   const post = data.markdownRemark
-  const image = post.frontmatter.image
-  ? post.frontmatter.image.childImageSharp.resize
-  : null
   return (
     <Layout>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
-        image={image}
+        image={SEOCard}
       />
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
@@ -93,15 +91,6 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         path
         title
-        image: featured {
-          childImageSharp {
-            resize(width: 1200) {
-              src
-              height
-              width
-            }
-          }
-        }
       }
       fields {
         readingTime {
