@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
 }
 
 body {
   margin: 0;
-  font-family: "Lato", "Lato", "Lato", "sans";
+  font-family: "Inter", "sans";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -21,6 +24,7 @@ nav,
 section,
 summary {
   display: block;
+  font-family: "Inter", "sans";
 }
 audio,
 canvas,
