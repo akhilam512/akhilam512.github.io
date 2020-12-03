@@ -109,13 +109,7 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">{siteTitle}</HomeLink>
         <NavLink to="/blog">blog</NavLink>
-        <ResumeLink
-          href="https://drive.google.com/file/d/1oVk0uFYMbSzjL86TKjXDY581Nd_SyJkW/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          resume
-        </ResumeLink>
+
       </p>
       <HRBreak></HRBreak>
     </Content>
