@@ -3,7 +3,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
-import avatarImg from "./../images/me.webp"
+import avatarImg from "./../images/me.jpeg"
 
 const Container = styled.div`
   text-align: center;
@@ -25,7 +25,7 @@ const Description = styled.p`
 `
 const NameHeader = styled.h1`
   text-decoration: none;
-  font-size: 3.5rem;
+  font-size: 3.3rem;
   margin-bottom: 0;
 `
 const NameHeader2 = styled.h2`
@@ -48,13 +48,21 @@ const HRBreakFull = styled.hr`
   border-color: grey;
 `
 const AvatarContainer = styled.div`
-  width: 100%;
-  max-width: 100%;
   height: 100%;
-  max-height: 100%;
+  max-width: 40%;
+  min-width: 30%;
+  min-height: 30%;
   display: block;
+  margin: auto;
 `
-
+const NameText = styled.span`
+  background-image: linear-gradient(
+    rgba(246, 252, 58, 0.8),
+    rgba(246, 252, 58, 0.8)
+  );
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+`
 const LandingBio = () => (
   <StaticQuery
     query={graphql`
@@ -79,9 +87,12 @@ const LandingBio = () => (
           <AvatarContainer>
             <img src={avatarImg} className="avatarImg img-responsive" />
           </AvatarContainer>
-          <NameHeader>Akhil K G</NameHeader>
+          <NameHeader> Akhil K G </NameHeader>
 
-          <NameHeader2>{data.site.siteMetadata.subtitle}</NameHeader2>
+          <NameHeader2>
+            {" "}
+            <NameText> {data.site.siteMetadata.subtitle} </NameText>
+          </NameHeader2>
 
           <Description>
             Co-Founder @
