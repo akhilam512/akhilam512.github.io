@@ -13,7 +13,7 @@ const Content = styled.div`
   font-size: 1.2em;
 `
 
-const MarkedHeader = styled.h1`
+const MarkedHeader = styled.p`
   display: inline;
   background-image: linear-gradient(
       -100deg,
@@ -22,10 +22,14 @@ const MarkedHeader = styled.h1`
       rgba(246, 252, 58, 0.81)
   );
   line-height: 1.6;
+  font-size: 2rem;
+  border-radius: 10px;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
 `
 
-const HeaderDate = styled.h3`
-  margin-top: 10px;
+const HeaderDate = styled.p`
+  margin-top: 5px;
   color: #606060;
   font-size: 1em;
 `

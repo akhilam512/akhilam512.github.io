@@ -65,6 +65,7 @@ const NameText = styled.span`
   );
   padding-left: 0.2em;
   padding-right: 0.2em;
+  border-radius: 15px;
 `
 const LandingBio = () => (
   <StaticQuery
@@ -90,11 +91,11 @@ const LandingBio = () => (
           <AvatarContainer>
             <img src={avatarImg} className="avatarImg img-responsive" />
           </AvatarContainer>
-          <NameHeader> Akhil K G </NameHeader>
+          <NameHeader> <NameText>Akhil K G </NameText></NameHeader>
 
           <NameHeader2>
             {" "}
-            <NameText> {data.site.siteMetadata.subtitle} </NameText>
+             {data.site.siteMetadata.subtitle} 
           </NameHeader2>
 
           <Description>

@@ -29,6 +29,7 @@ const NavLink = styled(Link)`
     background-color: #f8fc61;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    
   }
 
   :hover::after {
