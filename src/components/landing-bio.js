@@ -33,10 +33,12 @@ const NameHeader = styled.h1`
 const NameHeader2 = styled.h2`
   text-decoration: none;
   font-size: 2rem;
+  margin-bottom: 0em;
 `
 const NameHeader3 = styled.h3`
   text-decoration: none;
   font-size: 2.1rem;
+  margin-bottom: 0em;
 `
 const HRBreakFull = styled.hr`
   width: 70%;
@@ -96,24 +98,26 @@ const LandingBio = () => (
           </NameHeader2>
 
           <Description>
-          ‣ Co-Founder @
+            ‣ Co-Founder @
             <a
               href="https://gitlit.co/"
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
             >
-               GitLit 
-            </a> 🔥
-            <br/> ‣ Member @
+              GitLit
+            </a>{" "}
+            🔥
+            <br /> ‣ Member @
             <a
               href="https://amfoss.in/"
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
             >
-               amFOSS 
-            </a> 💡
+              amFOSS
+            </a>{" "}
+            💡
           </Description>
           <HRBreakFull />
           <div>
