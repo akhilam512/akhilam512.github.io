@@ -33,7 +33,7 @@ const NameHeader = styled.h1`
 const NameHeader2 = styled.h4`
   text-decoration: none;
   font-size: 2rem;
-  margin-bottom: 0em;
+  margin-bottom: 0.3em;
 `
 const NameHeader3 = styled.h4`
   text-decoration: none;
@@ -48,8 +48,7 @@ const HRBreakFull = styled.hr`
   margin-bottom: 0.9rem;
   border: 0.01em solid grey;
   border-radius: 2px;
-  border-color: grey;
-  margin-top: 0.8em;
+  margin-top: 0.5em;
 `
 const AvatarContainer = styled.div`
   height: 100%;
