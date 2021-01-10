@@ -30,12 +30,12 @@ const NameHeader = styled.h1`
   font-size: 3.3rem;
   margin-bottom: 0em;
 `
-const NameHeader2 = styled.h2`
+const NameHeader2 = styled.h4`
   text-decoration: none;
   font-size: 2rem;
   margin-bottom: 0em;
 `
-const NameHeader3 = styled.h3`
+const NameHeader3 = styled.h4`
   text-decoration: none;
   font-size: 2.1rem;
   margin-bottom: 0em;
@@ -49,6 +49,7 @@ const HRBreakFull = styled.hr`
   border: 0.01em solid grey;
   border-radius: 2px;
   border-color: grey;
+  margin-top: 0.8em;
 `
 const AvatarContainer = styled.div`
   height: 100%;
