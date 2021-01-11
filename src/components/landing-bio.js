@@ -90,12 +90,12 @@ const LandingBio = () => (
           <AvatarContainer>
             <img src={avatarImg} className="avatarImg img-responsive" />
           </AvatarContainer>
-          <NameHeader> <NameText>Akhil K G </NameText></NameHeader>
-
-          <NameHeader2>
+          <NameHeader>
             {" "}
-             {data.site.siteMetadata.subtitle} 
-          </NameHeader2>
+            <NameText>Akhil K G </NameText>
+          </NameHeader>
+
+          <NameHeader2> {data.site.siteMetadata.subtitle}</NameHeader2>
 
           <Description>
             ‣ Co-Founder @
@@ -138,6 +138,12 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-linkedin"
+            ></a>
+            <a
+              href="https://dribbble.com/akhilkg"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="fa fa-dribbble"
             ></a>
             <a
               href="mailto:akhilkg@amfoss.in"

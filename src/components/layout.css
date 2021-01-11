@@ -685,6 +685,11 @@ a::selection {
   background-color:red;
 }
 
+.fa-dribbble:hover {
+  text-decoration:none;
+  color: white;
+  background-color: #ea4c89;
+}
 
 .Link2 {
   text-decoration: none;
