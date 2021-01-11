@@ -51,8 +51,7 @@ const HRBreakFull = styled.hr`
   margin-top: 0.5em;
 `
 const AvatarContainer = styled.div`
-  height: 100%;
-  max-width: 40%;
+  max-width: 34%;
   min-width: 30%;
   min-height: 30%;
   display: block;
