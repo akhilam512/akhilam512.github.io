@@ -7,9 +7,9 @@ type: false
 ---
 
 
-This page contains all of the blog posts I wrote as a Google Summer of Code Student 2019 with KDE/Kdenlive from 19 May, 2019 - 26 August, 2019.
+This page contains all of the blog posts I wrote as a [Google Summer of Code Student 2019](https://summerofcode.withgoogle.com/archive/2019/projects/4967044749983744/) with KDE/Kdenlive from 19 May, 2019 - 26 August, 2019.
 
-Click here to view the final report
+Click [here](https://community.kde.org/GSoC/2019/StatusReports/AkhilKGangadharan) to view the final report
 
 - [Introduction](/blog/gsoc-20-intro) <small> *(19 May, 2019)* </small>
 
