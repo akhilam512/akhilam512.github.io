@@ -1,5 +1,5 @@
 ---
-title: Revamping the Titler Tool – GSoC ’19
+title: Week 1
 date: "2019-06-05"
 draft: false
 path: "/blog/gsoc-1w"

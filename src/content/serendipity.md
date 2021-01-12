@@ -3,7 +3,7 @@ title: "Serendipity"
 date: "2020-11-03"
 draft: false
 path: "/blog/serendipity"
-
+type: false
 ---
 
 <div style="background-color:#fdffb3; color:black; padding:5px 0;">

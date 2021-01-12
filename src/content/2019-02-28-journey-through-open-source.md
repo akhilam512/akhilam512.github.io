@@ -1,8 +1,9 @@
 ---
 title: "The Journey Through Open Source"
 date: "2019-02-28"
-draft: false
+draft: true
 path: "/blog/desert"
+type: false
 ---
 
 ***
@@ -22,8 +23,7 @@ Like someone lost in a desert, when you finally find something that could get yo
 
 You walk. And walk and you don't stop. You keep on walking till you find the next thing. Travelling through it is a test of your character, of your will to take the beating, again and again, and keeping on moving. It's a journey like none other.
 
-> "What makes the desert beautiful", said the little prince, "is that it hides, somewhere, a well".  
-						 -  Antoine de Saint Exupéry
+"What makes the desert beautiful", said the little prince, "is that it hides, somewhere, a well"  - Antoine de Saint Exupéry
 				
                         
 

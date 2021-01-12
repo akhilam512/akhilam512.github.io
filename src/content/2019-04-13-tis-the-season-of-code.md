@@ -3,6 +3,7 @@ title: "KDE/Kdenlive - From a contributor!"
 date: "2019-04-13"
 draft: false
 path: "/blog/kdenlive"
+type: false
 ---
 
 It's only been about a week since the project proposal deadline for GSoC (which was the 9th of April) passed, and phew. The previous couple of weeks have been exhausting - finishing the proposal, understanding the project implementation, getting it reviewed (big thanks to all the reviewers), responding to the reviews -  however at the same time, on the bigger picture it has been quite satisfying - to see all of the work from the last many months come to life in the document, to understand a major feature of the software that you're working on and identify it's problems, it's scope, it's need in the community and how it can be improved.  <br>

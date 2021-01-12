@@ -3,7 +3,7 @@ title: "Serve an Hour!"
 date: "2018-09-12"
 draft: false
 path: "/blog/sah"
-
+type: false
 ---
 
 ***

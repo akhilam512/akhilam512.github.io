@@ -3,6 +3,7 @@ title: Linux App Summit 2019!
 path: "/blog/las20"
 date: "2019-12-09"
 draft: false
+type: false
 ---
 
 ***

@@ -3,6 +3,7 @@ title: How To Not Be An Idiot - Solo Travel
 path: "/blog/travel"
 date: "2020-02-04"
 draft: false
+type: false
 ---
 
 ***

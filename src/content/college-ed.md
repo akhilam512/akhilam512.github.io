@@ -1,9 +1,9 @@
 ---
 title: "The future of college education"
-date: "2020-08-04"
+date: "2020-08-14"
 draft: false
 path: "/blog/college-ed"
-
+type: false
 ---
 
 COVID-19 has forced us to adopt new ways in a lot of areas of our daily lives - work, communication, education - every sphere of our lives has been changed and for some, the change is permanent.
