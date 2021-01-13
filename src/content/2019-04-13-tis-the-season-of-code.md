@@ -1,5 +1,5 @@
 ---
-title: "KDE/Kdenlive - From a contributor!"
+title: "KDE/Kdenlive - From a contributor"
 date: "2019-04-13"
 draft: false
 path: "/blog/kdenlive"

@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Bash Scripting"
+title: "Bash Scripting 101"
 date: "2019-03-04"
 draft: false
 path: "/blog/bash"

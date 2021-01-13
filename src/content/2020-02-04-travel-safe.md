@@ -1,5 +1,5 @@
 ---
-title: How To Not Be An Idiot - Solo Travel
+title: Travelling solo? Don't be an idiot
 path: "/blog/travel"
 date: "2020-02-04"
 draft: false
@@ -8,9 +8,13 @@ type: false
 
 ***
 
-Recently, I had the privilege to attend the Linux App Summit 2019, Barcelona and also I got to deliver a talk at FOSDEM 2020, Brussels - all thanks to the [KDE e.V](https://ev.kde.org/) for supporting my travel. I travelled alone in both of the instances and I learned a lot of things that I suppose would be worth sharing. Here is the compiled list:
+Recently, I had the privilege to  <a href="https://akhilkg.me/blog/las20" target="_blank"
+              rel="noopener noreferrer"
+            >  attend the Linux App Summit 2019 </a>, Barcelona and also I got to deliver <a href="https://akhilkg.me/blog/fosdem20" target="_blank"
+              rel="noopener noreferrer"
+            >  a talk at FOSDEM 2020 </a>, Brussels. I travelled alone in both of the instances and I learned a lot of things that I suppose would be worth sharing. Here is the compiled list:
 
-(Note: This is all written from a 'being safe' point of view and are out of my personal experience - please feel free to think or act otherwise)
+(Note: This is all written from a 'being safe' + super conservative point of view and are out of my personal experience - please feel free to think or act otherwise)
 
 ### Do not look like a tourist
 
