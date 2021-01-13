@@ -6,7 +6,10 @@ import SEO from "../components/seo"
 const NotFoundPage = () => (
   <Layout>
     <SEO title="404: Not found" />
-    <h1>This page doesn't exist</h1>
+    <h1>451 – Unavailable For Legal Reasons
+  </h1>
+Just kidding - it's a 404. <br></br>
+It seems you've found something that used to exist or I guess you spelled something wrong. Can you double check that URL?
   </Layout>
 )
 
