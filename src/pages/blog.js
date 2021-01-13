@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
+import MailChimpForm from "../components/MailchimpForm"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -84,9 +85,12 @@ const IndexPage = ({ data }) => {
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
               </div>
               <LightLine/>
+
             </div>
 
           ))}
+                        <MailChimpForm/>
+
       </Content>
     </Layout>
   )

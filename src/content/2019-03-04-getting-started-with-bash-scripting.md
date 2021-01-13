@@ -9,7 +9,7 @@ type: false
 ***
 
 **Before we start,** <br>
-This is a comprehensive, short guide to just get you started with writing basic bash scripts in Linux. This blog will equip you with the basic and required knowledge on working with bash scripts, responsbility is upon you to learn more and make the best of it :)
+This is a comprehensive, short guide to just get you started with writing basic bash scripts in Linux. This post will only equip you with the basic knowledge you need to work with bash scripts.
 <br>
 Prerequisities : Knowledge of basic Linux CLI commands.
 <br>
@@ -20,11 +20,11 @@ Prerequisities : Knowledge of basic Linux CLI commands.
 
 "Bash Scripting" - let's break it down to what it is. First up - "Bash". <br>
 
-Bash is basically a shell - a place where you can communicate with the core (kernel) in forms of commands (like ls, cat, cd). In other words, it's a command line interface (CLI) <br>
+Bash is a shell - a place where you communicate with the core (kernel) in forms of commands (like ls, cat, cd). In other words, it's a command line interface (CLI) <br>
 
-Scripting  is fundamentally writing a bunch of commands together and then execute it , much like a "program" . <br>
+Scripting  is fundamentally writing a bunch of commands together and then execute them, much like a "program" . <br>
 
-A 'Bash Script' is basically a bunch of commands put together in one single 'script'. <br>
+A 'Bash Script' is a bunch of commands put together in one single 'script'. <br>
 
 Bash scripting is a way of communicating effectively with your hardware. <br>
 
@@ -145,31 +145,36 @@ Step 1 : make a script and name it as you like, I'm calling it "buildb" <br>
  $ sudo nano buildb 
 ```
 There's no need for the .sh extension as we are making an executable (and technically, the extension isn't *really* necessary, it's just a convention of naming but it's always good to follow the convention) <br>
+
 ```
 #!/bin/bash 
-cd           # so that we get to the root directory 
+cd           # go to the root directory 
 cd blender-git/blender 
 make update 
 make
 ```
 <br>
 And then make it executable - <br>
+
 ```
 $ sudo chmod +x buildb
 ```
 <br> Place this script in ~/bin after making the directory. <br>
+
 ```
 $ sudo mkdir ~/bin 
 $ sudo mv ~/buildb ~/bin/buildb
 ```
+
 <br>
 Now simply do - <br>
+
 ```
 $ buildb
 ```
-And voila. It works :) (In case it doesnt, open a new terminal and try again) <br>
+And voila. It works :) (In case it doesn't, open a new terminal instance and try again) <br>
 
 
 ***
 
-Bash Scripting is a vast, vast field and what I have covered here so far is barely the tip of the iceberg.If you found this interesting, please do comment :) <br>
+Bash Scripting is a vast, vast field and what I have barely scratched the surface here.
