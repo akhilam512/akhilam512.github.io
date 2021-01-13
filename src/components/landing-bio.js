@@ -28,7 +28,7 @@ const Description = styled.p`
 const NameHeader = styled.h1`
   text-decoration: none;
   font-size: 3.3rem;
-  margin-bottom: 0em;
+  margin-bottom: 0.2em;
 `
 const NameHeader2 = styled.h4`
   text-decoration: none;
