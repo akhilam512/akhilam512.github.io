@@ -29,7 +29,10 @@ const NameHeader = styled.h1`
   text-decoration: none;
   font-size: 3.3rem;
   margin-bottom: 0.2em;
+  font-family: Poppins;
+  font-weight: normal;
 `
+
 const NameHeader2 = styled.h4`
   text-decoration: none;
   font-size: 2rem;
@@ -92,11 +95,12 @@ const LandingBio = () => (
           </AvatarContainer>
           <NameHeader>
             {" "}
-            <NameText>Akhil K G </NameText>
+            <NameText>
+              {" "}
+              <strong>akhil</strong>kg{" "}
+            </NameText>
           </NameHeader>
-
           <NameHeader2> {data.site.siteMetadata.subtitle}</NameHeader2>
-
           <Description>
             ‣ Co-Founder @
             <a

@@ -107,7 +107,7 @@ const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
-        <HomeLink to="/">{siteTitle}</HomeLink>
+        <HomeLink to="/">about</HomeLink>
         <NavLink to="/blog">blog</NavLink>
         <NavLink to="https://akhilkg.substack.com/" target="_blank"
               rel="noopener noreferrer">newsletter</NavLink>
