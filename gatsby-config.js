@@ -11,12 +11,7 @@ module.exports = {
   },
 
   plugins: [
-    {
-        resolve: 'gatsby-plugin-mailchimp',
-        options: {
-            endpoint: process.env.MAILCHIMP_ENDPOINT, 
-        },
-    },
+
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,

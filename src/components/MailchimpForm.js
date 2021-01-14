@@ -1,4 +1,4 @@
-import addToMailchimp from "gatsby-plugin-mailchimp"
+//import addToMailchimp from "gatsby-plugin-mailchimp"
 import TextField from "@material-ui/core/TextField"
 import Button from "@material-ui/core/Button"
 import Container from "@material-ui/core/Container"
@@ -28,12 +28,20 @@ const MailHeader = styled.div`
   margin: 0 auto;
   padding: 1rem 1.0875rem;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1em;
 `
 const SocialMediaDiv = styled.div`
 text-align: center;
 display: block;
 
+`;
+
+const SubStackDiv = styled.iframe`
+  background: white;
+  border: none;
+  border-radius: 20px;
+  margin: 0;
+  margin-bottom: 0.5em;
 `;
 
 const BootstrapButton = withStyles({
@@ -69,62 +77,31 @@ export default class MailChimpForm extends React.Component {
     super()
     this.state = { email: "", result: null }
   }
-  _handleSubmit = async (e) => {
-    const result = await addToMailchimp(this.state.email)
-    this.setState({ result: result })
-  }
-  handleChange = (event) => {
-    this.setState({ email: event.target.value })
-  }
+  // _handleSubmit = async (e) => {
+  //   const result = await addToMailchimp(this.state.email)
+  //   this.setState({ result: result })
+  // }
+  // handleChange = (event) => {
+  //   this.setState({ email: event.target.value })
+  // }
 
   render() {
     return (
       <div>
+        
         <br/>
+        <SocialMediaDiv> 
+        <MailHeader> Get not-very frequent updates of new posts 👇  </MailHeader>
+
+        <SubStackDiv src="https://akhilkg.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></SubStackDiv>
+        </SocialMediaDiv>
         <Container maxWidth="sm">
           <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             crossorigin="anonymous"
           />
-          <MailHeader> Get not-so-frequent updates of new posts </MailHeader>
-          <form onSubmit={this._handleSubmit}>
-            <Grid
-              container
-              direction="row"
-              justify="center"
-              alignItems="center"
-            >
-              <Grid item>
-                <Paper>
-                  <TextField
-                    id="outlined-email-input"
-                    label="Email"
-                    type="email"
-                    name="email"
-                    autoComplete="email"
-                    variant="outlined"
-                    className="TextField"
-                    onChange={this.handleChange}
-                  />
-                </Paper>
-              </Grid>
-              &nbsp;&nbsp;&nbsp;
-              <Grid item>
-                <Paper>
-                  <BootstrapButton
-                    variant="contained"
-                    label="Subscribe"
-                    type="submit"
-                  >
-                    <Typography> Subscribe </Typography>
-                  </BootstrapButton>
-                </Paper>
-              </Grid>
-            </Grid>
-          </form>
         </Container>
-        <HRHalfBreak/>
         <SocialMediaDiv>
           <a
             href="https://twitter.com/akhlkg/"
