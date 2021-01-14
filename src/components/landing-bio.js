@@ -64,7 +64,7 @@ const NameText = styled.span`
   );
   padding-left: 0.2em;
   padding-right: 0.2em;
-  border-radius: 15px;
+  border-radius: 10px;
 `
 const LandingBio = () => (
   <StaticQuery
