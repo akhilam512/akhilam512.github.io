@@ -68,7 +68,7 @@ export default ({ data }) => {
     <Layout>
       <SEO
         title={post.frontmatter.title}
-        description={post.frontmatter.description || post.excerpt}
+        keywords={"akhilkg blog" + post.frontmatter.keywords}
         image={SEOCard}
       />
       <Content>
@@ -95,6 +95,7 @@ export const pageQuery = graphql`
         date(formatString: "DD MMMM, YYYY")
         path
         title
+        keywords
       }
       fields {
         readingTime {

@@ -53,7 +53,7 @@ const LightLine = styled.hr`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Blog" keywords={[`Akhil K G Blog`, `akhilkg`, `akhilkg blog`,, `Akhil K Gangadharan Blog`, 'Akhil blog']} />
       <Content>
         <Head1> <NameText> Blog </NameText> </Head1> <br/> <br/>
         {data.allMarkdownRemark.edges
