@@ -25,6 +25,7 @@ const Description = styled.p`
   display: block;
   margin: auto;
 `
+
 const NameHeader = styled.h1`
   text-decoration: none;
   font-size: 3.3rem;
@@ -37,6 +38,7 @@ const NameHeader2 = styled.h4`
   text-decoration: none;
   font-size: 2rem;
   margin-bottom: 0.3em;
+
 `
 const NameHeader3 = styled.h4`
   text-decoration: none;
@@ -108,6 +110,7 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
+              style={{fontFamily: 'Poppins'}}
             >
               GitLit
             </a>{" "}
@@ -118,6 +121,7 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
+              style={{fontFamily: 'Poppins'}}
             >
               amFOSS
             </a>{" "}
