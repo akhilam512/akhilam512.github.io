@@ -5,7 +5,6 @@ draft: false
 path: "/blog/cold-emails"
 featured: images/seo.jpg
 type: false
-keywords: "cold emails how warm emails intros"
 ---
 
 Why are 'cold emails' ... cold?

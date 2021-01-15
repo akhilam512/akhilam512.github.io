@@ -4,7 +4,6 @@ date: "2021-01-14"
 draft: false
 path: "/blog/distractions"
 type: false
-keywords: "optimize your distractions clean social media feed digital noise"
 ---
 
 I’m not a “systems” person.
