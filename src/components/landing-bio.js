@@ -3,7 +3,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
-import avatarImg from "./../images/me.jpeg"
+import avatarImg from "./../images/me.jpg"
 
 const Container = styled.div`
   text-align: center;
@@ -29,7 +29,7 @@ const Description = styled.p`
 const NameHeader = styled.h1`
   text-decoration: none;
   font-size: 3.3rem;
-  margin-bottom: 0.2em;
+  margin-bottom: 0em;
   font-family: Poppins;
   font-weight: normal;
 `
@@ -38,7 +38,6 @@ const NameHeader2 = styled.h4`
   text-decoration: none;
   font-size: 2rem;
   margin-bottom: 0.3em;
-
 `
 const NameHeader3 = styled.h4`
   text-decoration: none;
@@ -97,10 +96,7 @@ const LandingBio = () => (
           </AvatarContainer>
           <NameHeader>
             {" "}
-            <NameText>
-              {" "}
-              <strong>akhil</strong>kg{" "}
-            </NameText>
+            <strong> akhil kg </strong>{" "}
           </NameHeader>
           <NameHeader2> {data.site.siteMetadata.subtitle}</NameHeader2>
           <Description>
@@ -110,7 +106,7 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
-              style={{fontFamily: 'Poppins'}}
+              style={{ fontFamily: "Poppins" }}
             >
               GitLit
             </a>{" "}
@@ -121,7 +117,7 @@ const LandingBio = () => (
               target="_blank"
               rel="noopener noreferrer"
               class="Link2"
-              style={{fontFamily: 'Poppins'}}
+              style={{ fontFamily: "Poppins" }}
             >
               amFOSS
             </a>{" "}

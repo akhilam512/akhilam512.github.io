@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css"
 
 import React from "react"
 import LandingBio from "../components/landing-bio"
@@ -7,7 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" keywords={[`Akhil K G`, `akhilkg`, `Akhil K Gangadharan`, 'Akhil']} />
+    <SEO
+      title="Home"
+      keywords={[`Akhil K G`, `akhilkg`, `Akhil K Gangadharan`, "Akhil"]}
+    />
     <LandingBio />
   </Layout>
 )
