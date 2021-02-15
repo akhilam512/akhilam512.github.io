@@ -8,7 +8,7 @@ module.exports = {
     subtitle: `developer, copywriter, designer`,
     description: `akhilkg's website`,
     author: `@niklasmtj`,
-    url: 'https://www.akhilkg.me/',
+    siteUrl: 'https://www.akhilkg.me/',
   },
 
   plugins: [
