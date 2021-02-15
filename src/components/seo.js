@@ -68,14 +68,7 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: metaDescription,
         },
       ]
-        .concat(
-          keywords.length > 0
-            ? {
-                name: `keywords`,
-                content: keywords.join(`, `),
-              }
-            : []
-        )
+
         .concat(meta)}
     />
   )
@@ -84,7 +77,7 @@ function SEO({ description, lang, meta, keywords, title }) {
 SEO.defaultProps = {
   lang: `en`,
   meta: [],
-  keywords: [],
+  keywords: ['akhilkg', 'Akhil', 'Akhil K G', 'Akhil K Gangadharan', 'akhil kg'],
 }
 
 SEO.propTypes = {
