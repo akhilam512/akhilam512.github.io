@@ -99,7 +99,7 @@ const LandingBio = () => (
             <strong> akhil kg </strong>{" "}
           </NameHeader>
           <NameHeader2> {data.site.siteMetadata.subtitle}</NameHeader2>
-          <Description>
+          {/* <Description>
             ‣ Co-Founder @
             <a
               href="https://gitlit.co/"
@@ -122,7 +122,7 @@ const LandingBio = () => (
               amFOSS
             </a>{" "}
             💡
-          </Description>
+          </Description> */}
           <HRBreakFull />
           <div>
             <a
