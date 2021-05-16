@@ -16,10 +16,10 @@ const Content = styled.div`
 const MarkedHeader = styled.p`
   display: inline;
   background-image: linear-gradient(
-      -100deg,
-      rgba(246, 252, 58, 0.79),
-      rgba(246, 252, 58, 0.8) 100%,
-      rgba(246, 252, 58, 0.81)
+    -100deg,
+    rgba(246, 252, 58, 0.79),
+    rgba(246, 252, 58, 0.8) 100%,
+    rgba(246, 252, 58, 0.81)
   );
   line-height: 1.6;
   font-size: 2rem;
@@ -73,15 +73,12 @@ export default ({ data }) => {
       />
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
-        <HeaderDate>
-          {post.frontmatter.date}
-        </HeaderDate>
+        <HeaderDate>{post.frontmatter.date}</HeaderDate>
         <br></br>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
-      <LightLine/>
-      <MailChimpForm/>
-
+      <LightLine />
+      <MailChimpForm />
     </Layout>
   )
 }

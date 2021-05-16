@@ -8,19 +8,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 const Head1 = styled.h1`
-    text-align: center;
-    font-size: 3rem;
-    
+  text-align: center;
+  font-size: 3rem;
 `
 const NameText = styled.span`
-  background-image: linear-gradient(
-    rgba(246, 252, 58, 0.8),
-    rgba(246, 252, 58, 0.8)
-  );
   padding-left: 0.2em;
   padding-right: 0.2em;
-  border-radius: 15px;
-
 `
 
 const Content = styled.div`
@@ -38,7 +31,6 @@ const MarkerHeader = styled.p`
   display: inline;
   border-radius: 1em 0 1em 0;
   font-size: 1.7em;
-
 `
 
 const ReadingTime = styled.h5`
@@ -53,9 +45,23 @@ const LightLine = styled.hr`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" keywords={[`Akhil K G Blog`, `akhilkg`, `akhilkg blog`,, `Akhil K Gangadharan Blog`, 'Akhil blog']} />
+      <SEO
+        title="Blog"
+        keywords={[
+          `Akhil K G Blog`,
+          `akhilkg`,
+          `akhilkg blog`,
+          ,
+          `Akhil K Gangadharan Blog`,
+          "Akhil blog",
+        ]}
+      />
       <Content>
-        <Head1> <NameText> Blog </NameText> </Head1> <br/> <br/>
+        <Head1>
+          {" "}
+          <NameText> Blog </NameText>{" "}
+        </Head1>{" "}
+        <br /> <br />
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -84,13 +90,10 @@ const IndexPage = ({ data }) => {
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
               </div>
-              <LightLine/>
-
+              <LightLine />
             </div>
-
           ))}
-                        <MailChimpForm/>
-
+        <MailChimpForm />
       </Content>
     </Layout>
   )
@@ -107,14 +110,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: {
-                draft: { 
-                    eq: false 
-                } 
-                type: {
-                    eq: false
-                }
-              } }
+      filter: { frontmatter: { draft: { eq: false }, type: { eq: false } } }
     ) {
       totalCount
       edges {

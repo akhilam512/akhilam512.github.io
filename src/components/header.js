@@ -29,7 +29,6 @@ const NavLink = styled(Link)`
     background-color: #f8fc61;
     transform-origin: bottom right;
     transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
-    
   }
 
   :hover::after {
@@ -105,13 +104,17 @@ const HRBreak = styled.hr`
 
 const Header = ({ siteTitle }) => (
   <SiteHeader>
-    <Content>
+    <Content id="header">
       <p>
         <HomeLink to="/">about</HomeLink>
         <NavLink to="/blog">blog</NavLink>
-        <NavLink to="https://akhilkg.substack.com/" target="_blank"
-              rel="noopener noreferrer">newsletter</NavLink>
-
+        <NavLink
+          to="https://akhilkg.substack.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          newsletter
+        </NavLink>
       </p>
       <HRBreak></HRBreak>
     </Content>

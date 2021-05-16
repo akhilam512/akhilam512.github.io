@@ -11,7 +11,6 @@ import React from "react"
 import styled from "@emotion/styled"
 import { withStyles } from "@material-ui/styles"
 
-
 const HRHalfBreak = styled.hr`
   width: 50%;
   max-width: 100%;
@@ -31,10 +30,9 @@ const MailHeader = styled.div`
   font-size: 1em;
 `
 const SocialMediaDiv = styled.div`
-text-align: center;
-display: block;
-
-`;
+  text-align: center;
+  display: block;
+`
 
 const SubStackDiv = styled.iframe`
   background: white;
@@ -42,7 +40,7 @@ const SubStackDiv = styled.iframe`
   border-radius: 20px;
   margin: 0;
   margin-bottom: 0.5em;
-`;
+`
 
 const BootstrapButton = withStyles({
   root: {
@@ -88,12 +86,20 @@ export default class MailChimpForm extends React.Component {
   render() {
     return (
       <div>
-        
-        <br/>
-        <SocialMediaDiv> 
-        <MailHeader> Get not-very frequent updates of new posts 👇  </MailHeader>
+        <br />
+        <SocialMediaDiv>
+          <MailHeader>
+            {" "}
+            Get not-very frequent updates of new posts 👇{" "}
+          </MailHeader>
 
-        <SubStackDiv src="https://akhilkg.substack.com/embed" width="480" height="320" frameborder="0" scrolling="no"></SubStackDiv>
+          <SubStackDiv
+            src="https://akhilkg.substack.com/embed"
+            width="480"
+            height="320"
+            frameborder="0"
+            scrolling="no"
+          ></SubStackDiv>
         </SocialMediaDiv>
         <Container maxWidth="sm">
           <link
@@ -108,22 +114,20 @@ export default class MailChimpForm extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
             class="fa fa-twitter"
-          ></a> 
-                      <a
-              href="https://www.linkedin.com/in/akhil-k-g/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="fa fa-linkedin"
-            ></a>
-                      <a
-              href="https://github.com/akhilam512/"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="fa fa-github"
-            ></a>
-          <br/> <br/>
-                    © 2021 akhilkg
-
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/akhil-k-g/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="fa fa-linkedin"
+          ></a>
+          <a
+            href="https://github.com/akhilam512/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="fa fa-github"
+          ></a>
+          <br /> <br />© 2021 akhilkg
         </SocialMediaDiv>
       </div>
     )
