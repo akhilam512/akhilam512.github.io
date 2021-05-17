@@ -50,6 +50,15 @@ const NameText2 = styled.span`
   padding-bottom: 0.2em;
 `
 
+const NameText3 = styled.span`
+  background-image: linear-gradient(
+    rgba(246, 252, 58, 0.8),
+    rgba(246, 252, 58, 0.8)
+  );
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+`
+
 const NameHeader = styled.h1`
   text-decoration: none;
   font-size: 3.3rem;
@@ -254,8 +263,9 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              > Open Source <br />{" "}
+              >  <NameText3> Open Source </NameText3> <br />{" "}
             </h5>
+
             <SubItemContainer>
               <NameHeader3half>
                 {" "}
@@ -418,7 +428,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              > SaaS <br />{" "}
+              >  <NameText3> SaaS  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -540,7 +550,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              > amFOSS <br />{" "}
+              >  <NameText3> amFOSS  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -737,7 +747,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              > Growtra <br />{" "}
+              >  <NameText3> Growtra  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -824,8 +834,8 @@ const LandingBio = () => (
               <img
                 src={growtraImg}
                 style={{
-                  marginTop: "1em",
-                  marginBottom: "4em",
+                  marginTop: "2.5em",
+                  marginBottom: "2em",
                   borderRadius: "1em",
                   width: "60%",
                 }}
