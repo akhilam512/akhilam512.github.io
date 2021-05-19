@@ -208,7 +208,7 @@ const LandingBio = () => (
                 class="fa fa-dribbble"
               ></a>
               <a
-                href="mailto:akhilkg@amfoss.in"
+                href="mailto:akhilkg@growtra.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fa fa-envelope"

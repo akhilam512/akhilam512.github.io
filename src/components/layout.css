@@ -721,6 +721,10 @@ a::selection {
   color: red;
 }
 
+.arrow2 {
+  text-align: center;
+  color: white;
+}
 
 .arrow {
   text-align: center;
@@ -739,6 +743,11 @@ a::selection {
   animation: bounce 2s;
   animation-iteration-count: 2;
 }
+.bounceinf {
+  -moz-animation: bounce2 4s infinite;
+  -webkit-animation: bounce2 4s infinite;
+  animation: bounce2 2s infinite;
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
@@ -749,5 +758,17 @@ a::selection {
   }
   60% {
     transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce2 {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-12px);
+  }
+  60% {
+    transform: translateY(-7px);
   }
 }

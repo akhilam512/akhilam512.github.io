@@ -3,7 +3,7 @@ import { graphql } from "gatsby"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import MailChimpForm from "../components/MailchimpForm"
+import BlogFooter from "../components/BlogFooter"
 import SEOCard from "../images/seo_card.png"
 
 const Content = styled.div`
@@ -78,7 +78,7 @@ export default ({ data }) => {
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
       <LightLine />
-      <MailChimpForm />
+      <BlogFooter/>
     </Layout>
   )
 }
