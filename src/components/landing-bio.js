@@ -5,7 +5,7 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 import avatarImg from "./../images/akhil_yellow_compressed.png"
 import kdenliveImg from "./../images/kdenlive.png"
-import blockistanImg from "./../images/blockistan.png"
+import blockistanImg from "./../images/gitlit_logo_final.svg"
 import amfossImg from "./../images/amfoss.jpeg"
 import growtraImg from "./../images/growtra.png"
 import { Link } from "react-scroll"
@@ -478,7 +478,7 @@ const LandingBio = () => (
                   </a>{" "}
                 </span>
               </HeaderItem>
-              <HeaderItem>
+              {/* <HeaderItem>
                 <NameHeader4>
                   {" "}
                   →{" "}
@@ -518,7 +518,7 @@ const LandingBio = () => (
                     [Website]{" "}
                   </a>{" "}
                 </span>
-              </HeaderItem>
+              </HeaderItem> */}
             </SubItemContainer>
           </MainItemContainer>
         </SecondContainer>
