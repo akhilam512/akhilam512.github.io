@@ -66,7 +66,6 @@ const NameHeader = styled.h1`
   margin-bottom: 0em;
   font-family: Poppins;
   font-weight: normal;
-  margin-top: 3em;
 `
 
 const NameHeader2 = styled.h4`
@@ -173,8 +172,8 @@ const LandingBio = () => (
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             crossorigin="anonymous"
           />
+          <OuterContainer>
           <Container>
-            
             {/* <AvatarContainer>
               <img src={avatarImg} className="avatarImg img-responsive" />
             </AvatarContainer> */}
@@ -184,13 +183,14 @@ const LandingBio = () => (
               <strong> Akhil</strong>{" "}
             </NameHeader>
             {/* <NameHeader2> biz dev-ing at <a href="daily.co" target="_blank"> Daily</a></NameHeader2> <br/> */}
-            <NameHeader3>                 
-              
- is doing stuff at the intersection  of <br/><NameText> sales, biz dev, & code </NameText></NameHeader3> 
+            <NameHeader3>
+              is doing stuff at the intersection of <br />
+              <NameText> sales, biz dev, & code </NameText>
+            </NameHeader3>
 
-            {/* <HRBreakFull /> */} 
-           
+            {/* <HRBreakFull /> */}
           </Container>
+          </OuterContainer>
         </div>
         <div class="arrow bounce">
           <Link
@@ -233,7 +233,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-                <NameText3> > Open Source </NameText3> <br />{" "}
+              <NameText3> > Open Source </NameText3> <br />{" "}
             </h5>
 
             <SubItemContainer>
@@ -398,7 +398,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-               <NameText3> > SaaS  </NameText3>  <br />{" "}
+              <NameText3> > SaaS </NameText3> <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -520,7 +520,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              <NameText3>  > amFOSS  </NameText3>  <br />{" "}
+              <NameText3> > amFOSS </NameText3> <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -668,12 +668,12 @@ const LandingBio = () => (
                 >
                   3 headings really can't sum up everything I learned and did as
                   part of the club. Other things that I failed to mention
-                  include conducting conferences, hackathons, talks -
-                  inviting speakers, outreach efforts - mentoring juniors -
-                  setting up systems and pipelines for developer & marketing teams - working on real
-                  life projects, both technical and non-technical <br />
-                  I continue to mentor juniors and be an active member of
-                  the club
+                  include conducting conferences, hackathons, talks - inviting
+                  speakers, outreach efforts - mentoring juniors - setting up
+                  systems and pipelines for developer & marketing teams -
+                  working on real life projects, both technical and
+                  non-technical <br />I continue to mentor juniors and be an
+                  active member of the club
                 </p>{" "}
                 {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
                   {" "}
@@ -717,7 +717,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-               <NameText3> > Growtra  </NameText3>  <br />{" "}
+              <NameText3> > Growtra </NameText3> <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -751,7 +751,11 @@ const LandingBio = () => (
                     marginTop: "0.4em",
                   }}
                 >
-                  Growtra is an on-demand lead generation agency specialized in obtaining warm, high qualified leads for B2B enterprise cybersecurity SaaS. Growtra was my first endeavour into the sales world where I first picked up the tools I use everyday now.    
+                  Growtra is an on-demand lead generation agency specialized in
+                  obtaining warm, high qualified leads for B2B enterprise
+                  cybersecurity SaaS. Growtra was my first endeavour into the
+                  sales world where I first picked up the tools I use everyday
+                  now.
                 </p>{" "}
                 {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
                   {" "}
