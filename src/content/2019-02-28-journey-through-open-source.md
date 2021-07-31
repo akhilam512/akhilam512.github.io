@@ -1,9 +1,9 @@
 ---
 title: "The Journey Through Open Source"
 date: "2019-02-28"
-draft: true
+draft: false
 path: "/blog/desert"
-type: false
+type: true
 ---
 
 ***

@@ -3,7 +3,7 @@ title: "Hackference India 2018"
 date: "2019-01-10"
 draft: true
 path: "/blog/hackference"
-type: false
+type: true
 ---
 
 ***

@@ -92,34 +92,17 @@ export default class BlogFooter extends React.Component {
   render() {
     return (
       <div style={{ textAlign: "center" }}>
-        <div className="row">
-          <br />
-          <link
+                  <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
             crossorigin="anonymous"
           />
+          <br />
 
-          <div className="col">
-            <AvatarContainer>
-              <img src={avatarImg} className="avatarImg responsive" />
-            </AvatarContainer>
-          </div>
 
-          <SocialMediaDiv className="col" style={{ marginTop: "0.5em", marginRight: "0.5em"}}>
-            <h4 style={{ textWeight: "bold" }}> <NameText2>  Akhil K G </NameText2> </h4>
-            <p style={{ textWeight: "normal" }}>
-              {" "}
-              On-demand quality warm leads for your B2B SaaS =>{" "}
-              <a
-                href="http://growtra.com"
-                target="_blank"
-                style={{ textDecoration: "none" }}
-              >
-                {" "}
-                Growtra{" "}
-              </a>{" "}
-            </p>
+      
+      <div style={{marginBottom: "2em"}}>
+          
             <a
               href="https://www.linkedin.com/in/akhil-k-g/"
               target="_blank"
@@ -138,11 +121,9 @@ export default class BlogFooter extends React.Component {
               rel="noopener noreferrer"
               class="fa fa-twitter"
             ></a>
-
-          </SocialMediaDiv>
-        </div>
-        <hr style={{ margin: 'auto', width: '50%', marginBottom: "1em" }}/>
-        Go back to top
+            </div>
+<br/>
+   <span >      Go back to top</span>
         <div class="arrow2 bounceinf">
           <Link
             activeClass="active"

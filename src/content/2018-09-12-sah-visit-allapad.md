@@ -1,9 +1,9 @@
 ---
 title: "Serve an Hour!"
 date: "2018-09-12"
-draft: true
+description: "1"
 path: "/blog/sah"
-type: false
+type: true
 ---
 
 ***

@@ -3,7 +3,6 @@ title: Google Summer of Code 2019
 date: "2019-05-19"
 draft: false
 path: "/blog/gsoc-19"
-type: false
 ---
 
 

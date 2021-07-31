@@ -183,7 +183,7 @@ const LandingBio = () => (
               <strong> Akhil</strong>{" "}
             </NameHeader>
             {/* <NameHeader2> biz dev-ing at <a href="daily.co" target="_blank"> Daily</a></NameHeader2> <br/> */}
-            <NameHeader3>
+            <NameHeader3 style={{ marginTop: "0.2em"}}>
               is doing stuff at the intersection of <br />
               <NameText> sales, biz dev, & code </NameText>
             </NameHeader3>
@@ -198,7 +198,7 @@ const LandingBio = () => (
             to="story"
             spy={true}
             smooth={true}
-            offset={-70}
+            offset={-65}
             duration={500}
           >
             {" "}

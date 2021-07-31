@@ -62,6 +62,11 @@ const IndexPage = ({ data }) => {
           <NameText> Blog </NameText>{" "}
         </Head1>{" "}
         <br /> <br />
+        <div style={{ margin: "auto", textAlign: "center", paddingTop: "3em", paddingBottom: "2em"}}> 
+                <MarkerHeader style={{ fontWeight: "bold"}}>
+                  Posts 📌  <br />
+                </MarkerHeader>
+                </div>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -70,6 +75,15 @@ const IndexPage = ({ data }) => {
           })
           .map(({ node }) => (
             <div key={node.id}>
+              {new String(node.frontmatter.title).includes("Source") ? (
+                <div style={{ margin: "auto", textAlign: "center", paddingTop: "3em", paddingBottom: "2em"}}> 
+                <MarkerHeader style={{ fontWeight: "bold"}}>
+                  Journal 🖋  <br />
+                </MarkerHeader>
+                </div>
+              ) : (
+                <ArticleDate> </ArticleDate>
+              )}
               <Link
                 to={node.frontmatter.path}
                 css={css`
@@ -88,7 +102,12 @@ const IndexPage = ({ data }) => {
                 <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
               </Link>
               <div>
-                <ArticleDate>{node.frontmatter.date}</ArticleDate>
+                {!new String(node.frontmatter.description).includes("1") ? (
+                  <ArticleDate>{node.frontmatter.date}{node.frontmatter.draft}</ArticleDate>
+                ) : (
+                  <ArticleDate></ArticleDate>
+                )}
+                {/* <ArticleDate>{node.frontmatter.date}</ArticleDate> */}
               </div>
               <LightLine />
             </div>
@@ -110,7 +129,7 @@ export const query = graphql`
     }
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { draft: { eq: false }, type: { eq: false } } }
+      filter: { frontmatter: { type: { eq: false } } }
     ) {
       totalCount
       edges {
@@ -118,15 +137,17 @@ export const query = graphql`
           id
           frontmatter {
             title
-            date(formatString: "DD/MM/YYYY")
+            date(formatString: "DD MMMM YYYY")
             rawDate: date
             path
+            description
           }
           fields {
             slug
             readingTime {
               text
             }
+          
           }
           excerpt
         }
