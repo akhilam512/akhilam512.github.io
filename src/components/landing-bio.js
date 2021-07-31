@@ -8,6 +8,7 @@ import kdenliveImg from "./../images/kdenlive.png"
 import blockistanImg from "./../images/gitlit_logo_final.svg"
 import amfossImg from "./../images/amfoss.jpeg"
 import growtraImg from "./../images/growtra.png"
+import dailyImg from "./../images/daily.svg"
 import { Link } from "react-scroll"
 
 const Container = styled.div`
@@ -61,10 +62,11 @@ const NameText3 = styled.span`
 
 const NameHeader = styled.h1`
   text-decoration: none;
-  font-size: 3.3rem;
+  font-size: 4rem;
   margin-bottom: 0em;
   font-family: Poppins;
   font-weight: normal;
+  margin-top: 3em;
 `
 
 const NameHeader2 = styled.h4`
@@ -172,54 +174,22 @@ const LandingBio = () => (
             crossorigin="anonymous"
           />
           <Container>
-            <br></br>
-            <AvatarContainer>
+            
+            {/* <AvatarContainer>
               <img src={avatarImg} className="avatarImg img-responsive" />
-            </AvatarContainer>
+            </AvatarContainer> */}
+
             <NameHeader>
               {" "}
-              <strong> akhil kg </strong>{" "}
+              <strong> Akhil</strong>{" "}
             </NameHeader>
-            <NameHeader2> engineer + artist + salesman</NameHeader2>
-            <HRBreakFull />
-            <div>
-              <a
-                href="https://twitter.com/akhlkg/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-twitter"
-              ></a>
-              <a
-                href="https://github.com/akhilam512/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-github"
-              ></a>
-              <a
-                href="https://www.linkedin.com/in/akhil-k-g/"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-linkedin"
-              ></a>
-              <a
-                href="https://dribbble.com/akhilkg"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-dribbble"
-              ></a>
-              <a
-                href="mailto:akhilkg@growtra.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-envelope"
-              ></a>
-              <a
-                href="https://www.quora.com/profile/Akhil-K-Gangadharan-2"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="fa fa-quora"
-              ></a>
-            </div>
+            {/* <NameHeader2> biz dev-ing at <a href="daily.co" target="_blank"> Daily</a></NameHeader2> <br/> */}
+            <NameHeader3>                 
+              
+ is doing stuff at the intersection  of <br/><NameText> sales, biz dev, & code </NameText></NameHeader3> 
+
+            {/* <HRBreakFull /> */} 
+           
           </Container>
         </div>
         <div class="arrow bounce">
@@ -263,7 +233,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              >  <NameText3> Open Source </NameText3> <br />{" "}
+                <NameText3> > Open Source </NameText3> <br />{" "}
             </h5>
 
             <SubItemContainer>
@@ -428,7 +398,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              >  <NameText3> SaaS  </NameText3>  <br />{" "}
+               <NameText3> > SaaS  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -534,7 +504,7 @@ const LandingBio = () => (
         <SecondContainer className="row-sm" style={{ marginTop: "-6em" }}>
           <NameHeader3>
             {" "}
-            as an artist{" "}
+            as a marketer, writer, designer{" "}
             <ParaText>
               {" "}
               Writing, designing, building <br />{" "}
@@ -550,7 +520,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              >  <NameText3> amFOSS  </NameText3>  <br />{" "}
+              <NameText3>  > amFOSS  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -698,11 +668,11 @@ const LandingBio = () => (
                 >
                   3 headings really can't sum up everything I learned and did as
                   part of the club. Other things that I failed to mention
-                  include conducting conferences, programs, hackathons -
+                  include conducting conferences, hackathons, talks -
                   inviting speakers, outreach efforts - mentoring juniors -
-                  setting up systems and pipelines for teams - working on real
+                  setting up systems and pipelines for developer & marketing teams - working on real
                   life projects, both technical and non-technical <br />
-                  Today I continue to mentor juniors and be an active member of
+                  I continue to mentor juniors and be an active member of
                   the club
                 </p>{" "}
                 {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
@@ -734,7 +704,7 @@ const LandingBio = () => (
             as a salesman{" "}
             <ParaText>
               {" "}
-              Prospecting, qualifying, selling <br />{" "}
+              Generating leads, prospecting, qualifying <br />{" "}
             </ParaText>{" "}
           </NameHeader3>{" "}
           <br />
@@ -747,7 +717,7 @@ const LandingBio = () => (
               }}
             >
               {" "}
-              >  <NameText3> Growtra  </NameText3>  <br />{" "}
+               <NameText3> > Growtra  </NameText3>  <br />{" "}
             </h5>
             <SubItemContainer>
               <NameHeader3half>
@@ -768,7 +738,7 @@ const LandingBio = () => (
                   →{" "}
                   <span style={{ marginLeft: "0.3em" }}>
                     {" "}
-                    <strong> What we do </strong>{" "}
+                    <strong> Business Development Rep </strong>{" "}
                   </span>
                 </NameHeader4>{" "}
                 <p
@@ -781,11 +751,7 @@ const LandingBio = () => (
                     marginTop: "0.4em",
                   }}
                 >
-                  At Growtra, we specialize in obtaining warm, high qualified
-                  leads for B2B enterprise cybersecurity SaaS. We conduct
-                  personalized outreach campaigns for our clients through email,
-                  LinkedIn, and phone calls and qualify leads so that our
-                  clients can focus on closing deals.
+                  Growtra is an on-demand lead generation agency specialized in obtaining warm, high qualified leads for B2B enterprise cybersecurity SaaS. Growtra was my first endeavour into the sales world where I first picked up the tools I use everyday now.    
                 </p>{" "}
                 {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
                   {" "}
@@ -795,7 +761,7 @@ const LandingBio = () => (
                   </a>{" "}
                 </span> */}
               </HeaderItem>
-              <HeaderItem>
+              {/* <HeaderItem>
                 <NameHeader4>
                   {" "}
                   →{" "}
@@ -821,14 +787,8 @@ const LandingBio = () => (
                     Growtra 📞{" "}
                   </a>
                 </p>{" "}
-                {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
-                  {" "}
-                  <a href="https://blockistan.com" target="_blank">
-                    {" "}
-                    [Website]{" "}
-                  </a>{" "}
-                </span> */}
-              </HeaderItem>
+
+              </HeaderItem> */}
             </SubItemContainer>
             <ImageContainer>
               <img
@@ -843,6 +803,44 @@ const LandingBio = () => (
               />
             </ImageContainer>
           </MainItemContainer>
+          {/* <MainItemContainer>
+            <h5
+              style={{
+                fontSize: "1.4rem",
+                fontWeight: "bold",
+                paddingBottom: "0.6em",
+              }}
+            >
+              {" "}
+              >  <NameText3> Daily  </NameText3>  <br />{" "}
+            </h5>
+            <SubItemContainer>
+              <NameHeader3half>
+                {" "}
+                <i style={{ fontSize: "0.9rem", fontWeight: "normal" }}>
+                  {" "}
+                  <a href="https://daily.co" target="_blank">
+                    Daily{" "}
+                  </a>{" "}
+                  - the easiest way to add real-time video and audio to your app.
+                </i>
+              </NameHeader3half>{" "}
+              <br />
+          
+            </SubItemContainer>
+            <ImageContainer>
+              <img
+                src={dailyImg}
+                style={{
+                  marginTop: "2.5em",
+                  marginBottom: "2em",
+                  borderRadius: "1em",
+                  width: "60%",
+                }}
+                alt="kdenlive"
+              />
+            </ImageContainer>
+          </MainItemContainer> */}
         </SecondContainer>
       </div>
     )}

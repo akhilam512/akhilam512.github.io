@@ -13,6 +13,7 @@ import styled from "@emotion/styled"
 import Header from "./header"
 import "./layout.css"
 
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;

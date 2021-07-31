@@ -90,7 +90,7 @@ export default class MailChimpForm extends React.Component {
         <SocialMediaDiv>
           <MailHeader>
             {" "}
-            Get not-very frequent updates of new posts 👇{" "}
+            Yes. Another newsletter. {" "}
           </MailHeader>
 
           <SubStackDiv
