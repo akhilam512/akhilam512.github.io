@@ -11,7 +11,7 @@ description: "1"
 
 <i>All of my conference posts</i>
 
-- [Akademy 2019](/blog/kdenlive) <small> *(13 September, 2019)* </small>
+- [Akademy 2019](/blog/akademy19) <small> *(13 September, 2019)* </small>
 
 2. [Linux App Summit 2019](/blog/las20) <small> *(09 December, 2019)*</small>
 
