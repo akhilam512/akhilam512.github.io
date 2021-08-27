@@ -701,14 +701,14 @@ const LandingBio = () => (
         <SecondContainer className="row-sm" style={{ marginTop: "-6em" }}>
           <NameHeader3>
             {" "}
-            as a salesman{" "}
+            as a biz dev wiz{" "}
             <ParaText>
               {" "}
-              Generating leads, prospecting, qualifying <br />{" "}
+              Qualifying leads, setting up meetings, talking code <br />{" "}
             </ParaText>{" "}
           </NameHeader3>{" "}
           <br />
-          <MainItemContainer>
+          {/* <MainItemContainer>
             <h5
               style={{
                 fontSize: "1.4rem",
@@ -756,7 +756,7 @@ const LandingBio = () => (
                   cybersecurity SaaS. Growtra was my first endeavour into the
                   sales world where I first picked up the tools I use everyday
                   now.
-                </p>{" "}
+                </p>{" "} */}
                 {/* <span style={{ fontSize: "1em", marginLeft: "3em" }}>
                   {" "}
                   <a href="https://blockistan.com" target="_blank">
@@ -764,7 +764,7 @@ const LandingBio = () => (
                     [Website]{" "}
                   </a>{" "}
                 </span> */}
-              </HeaderItem>
+              {/* </HeaderItem> */}
               {/* <HeaderItem>
                 <NameHeader4>
                   {" "}
@@ -793,7 +793,7 @@ const LandingBio = () => (
                 </p>{" "}
 
               </HeaderItem> */}
-            </SubItemContainer>
+            {/* </SubItemContainer>
             <ImageContainer>
               <img
                 src={growtraImg}
@@ -803,11 +803,11 @@ const LandingBio = () => (
                   borderRadius: "1em",
                   width: "60%",
                 }}
-                alt="kdenlive"
+                alt="growtra"
               />
             </ImageContainer>
-          </MainItemContainer>
-          {/* <MainItemContainer>
+          </MainItemContainer> */}
+          <MainItemContainer>
             <h5
               style={{
                 fontSize: "1.4rem",
@@ -830,7 +830,26 @@ const LandingBio = () => (
                 </i>
               </NameHeader3half>{" "}
               <br />
-          
+              <NameHeader4>
+                  {" "}
+                  →{" "}
+                  <span style={{ marginLeft: "0.3em" }}>
+                    {" "}
+                    <strong> Business development representative </strong>{" "}
+                  </span>
+                </NameHeader4>{" "}
+                <p
+                  style={{
+                    marginLeft: "3em",
+                    textDecoration: "none",
+                    fontSize: "1rem",
+                    textAlign: "justify",
+                    textWeight: "none",
+                    marginTop: "0.4em",
+                  }}
+                >
+                  Right now I'm a biz dev rep at Daily. Daily provides APIs for developers to integrate video and audio APIs. Most of the work is doing inbound sales and setting up meetings, as well dealing with technical details and talking code.   
+                </p>{" "}
             </SubItemContainer>
             <ImageContainer>
               <img
@@ -844,7 +863,7 @@ const LandingBio = () => (
                 alt="kdenlive"
               />
             </ImageContainer>
-          </MainItemContainer> */}
+          </MainItemContainer>
         </SecondContainer>
       </div>
     )}
