@@ -835,7 +835,7 @@ const LandingBio = () => (
                   →{" "}
                   <span style={{ marginLeft: "0.3em" }}>
                     {" "}
-                    <strong> Business development representative </strong>{" "}
+                    <strong> Presales Engineer </strong>{" "}
                   </span>
                 </NameHeader4>{" "}
                 <p
@@ -848,7 +848,7 @@ const LandingBio = () => (
                     marginTop: "0.4em",
                   }}
                 >
-                  Right now I'm a biz dev rep at Daily. Daily provides APIs for developers to integrate video and audio APIs. Most of the work is doing inbound sales and setting up meetings, as well dealing with technical details and talking code.   
+                  Right now I'm a presales engineer at Daily. Daily provides APIs for developers to integrate video and audio APIs. Most of the work is handling inbound sales, outreach, setting up meetings, as well dealing with technical details and talking code.   
                 </p>{" "}
             </SubItemContainer>
             <ImageContainer>
