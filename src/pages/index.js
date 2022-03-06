@@ -41,12 +41,12 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 class="fa fa-linkedin"
               ></a>
-              <a
+              {/* <a
                 href="https://dribbble.com/akhilkg"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fa fa-dribbble"
-              ></a>
+              ></a> */}
               <a
                 href="mailto:akhilam512@gmail.com"
                 target="_blank"
