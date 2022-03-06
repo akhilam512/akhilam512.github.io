@@ -61,8 +61,6 @@ const IndexPage = () => (
               ></a>
             </div>
         </Container>
-
-        <p style={{ textAlign: "center" }}>Akhil</p>
   </Layout>
 )
 
