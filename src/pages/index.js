@@ -53,12 +53,12 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 class="fa fa-envelope"
               ></a>
-              <a
+              {/* <a
                 href="https://www.quora.com/profile/Akhil-K-Gangadharan-2"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fa fa-quora"
-              ></a>
+              ></a> */}
             </div>
         </Container>
   </Layout>
