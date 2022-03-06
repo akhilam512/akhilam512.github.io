@@ -110,7 +110,7 @@ export default class BlogFooter extends React.Component {
               class="fa fa-linkedin"
             ></a>
             <a
-              href="mailto:akhilkg@growtra.com"
+              href="mailto:akhilam512@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               class="fa fa-envelope"

@@ -49,7 +49,7 @@ const IndexPage = () => (
                 class="fa fa-dribbble"
               ></a>
               <a
-                href="mailto:akhilkg@growtra.com"
+                href="mailto:akhilam512@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="fa fa-envelope"
