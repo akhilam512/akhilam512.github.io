@@ -431,13 +431,12 @@ const LandingBio = () => (
                     marginTop: "-1em",
                   }}
                 >
-                  GitLit was my first SaaS. It was meant to be a platform for
+                  GitLit was meant to be a platform for
                   students to 1) find open source projects and kickstart their
                   open source journey easily 2) build a work profile, a resume
                   of sorts with commits, testimonials, from the projects they
                   contribute to 3) get hired by startups.
-                  <br /> GitLit did not make it beyond MVP due to a variety of
-                  reasons, the major one being a lack of a clear monetising
+                  <br /> GitLit did not make it beyond the MVP stage due to a lack of a clear monetising
                   strategy and funds. Learned a lot tho!
                 </p>{" "}
                 <span style={{ fontSize: "1em", marginLeft: "3em" }}>
@@ -704,7 +703,7 @@ const LandingBio = () => (
             as a biz dev wiz{" "}
             <ParaText>
               {" "}
-              Qualifying leads, setting up meetings, talking code <br />{" "}
+              Talking code, video, and business  <br />{" "}
             </ParaText>{" "}
           </NameHeader3>{" "}
           <br />
