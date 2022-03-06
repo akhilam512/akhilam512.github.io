@@ -848,7 +848,7 @@ const LandingBio = () => (
                     marginTop: "0.4em",
                   }}
                 >
-                  Right now I'm a presales engineer at Daily. Daily provides APIs for developers to integrate video and audio APIs. Most of the work is handling inbound sales, outreach, setting up meetings, as well dealing with technical details and talking code.   
+                 At Daily, I work at the intersection of sales and engineering efforts. My work primarily involves working with and expanding Daily's customer base in India & abroad, along with collaborating with product, devrel, & marketing teams with on the ground insights to continuously improve our developer experience for different use cases & markets.
                 </p>{" "}
             </SubItemContainer>
             <ImageContainer>
