@@ -42,7 +42,7 @@ Also, note that the platform you use matters a lot. Use the platform where the r
 
 For the one that didn’t work - the principles remained the same but I focused too much on “getting help” rather than “connecting” - it started with this:
 
-<img src="https://user-images.githubusercontent.com/32199592/98252734-4652ec00-1fa0-11eb-88c2-3ae94eea6e4c.jpg"/>
+<img src="https://user-images.githubusercontent.com/32199592/158024055-ab378c10-ddf0-4960-bce7-6f506deff3ca.png"/>
 
 And this was at the end:
 
